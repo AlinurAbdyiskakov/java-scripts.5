@@ -27,5 +27,11 @@ if(answer5){
 
     console.log(" Your've earned " + result5 + " point  " );
 }
+let answer6 = confirm(" Ата-Мекендик согуш качан болгон 1992 ?");
+if(answer6){
+    result6 = result + 10;
+
+    console.log(" Your've earned " + result6 + " point  " );
+}
 
 
