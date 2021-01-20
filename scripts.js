@@ -21,10 +21,11 @@ if(answer2){
     console.log(" Your've earned " + result3 + " point  " );
 }
 
+let answer5 = confirm(" Токтагул Сатылганов атындагы мектеп 1991-жылы негизделген?");
+if(answer5){
+    result5 = result + 10;
 
-let answer1 = confirm("Антоним  айтылышы бирмес , жазылышы бирмес , маниси окшош ");
-if(answer1){
-    result4 = result + 10;
-
-    console.log(" Your've earned " + result4 + " point  " );
+    console.log(" Your've earned " + result5 + " point  " );
 }
+
+
