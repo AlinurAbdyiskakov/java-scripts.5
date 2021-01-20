@@ -21,12 +21,13 @@ if(answer2){
     console.log(" Your've earned " + result3 + " point  " );
 }
 
-let answer5 = confirm(" Токтагул Сатылганов атындагы мектеп 1991-жылы негизделген?");
+let answer5 = confirm(" Токтогул.Сатылганов атындагы мектеп 1991-жылы негизделген?");
 if(answer5){
     result5 = result + 10;
 
     console.log(" Your've earned " + result5 + " point  " );
 }
+
 let answer6 = confirm(" Ата-Мекендик согуш качан болгон 1992 ?");
 if(answer6){
     result6 = result + 10;
