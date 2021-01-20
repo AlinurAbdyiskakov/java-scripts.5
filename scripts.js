@@ -1,18 +1,30 @@
+let result = 0;
+let answer4 = confirm("Омоним  айтылышы бирдей , жазылышы бирдей , маниси арбашка ");
+if(answer4){
+    result1 = result + 10;
 
-
-if (answer1 == "ECMAScript"){
-    result = result + 5;
-
-
-    //show  results
-    console.log(" Your've earned " + result + " point ");
+    console.log(" Your've earned " + result1 + " point  " );
 }
-let answer5 = confirm("Is Kyrgystan a presidetial republic?");
-if(answer5){
-    result = result + 5;
 
 
-    //show  results
-    console.log(" Your've earned " + result + " point ");
+let answer3 = confirm("Антоним  айтылышы бирмес , жазылышы бирмес , маниси окшош ");
+if(answer3){
+    result2 = result + 10;
+
+    console.log(" Your've earned " + result2 + " point  " );
 }
-let answer4 = confirm("")
+
+let answer4 = confirm("Омоним  айтылышы бирдей , жазылышы бирдей , маниси арбашка ");
+if(answer4){
+    result1 = result + 10;
+
+    console.log(" Your've earned " + result1 + " point  " );
+}
+
+
+let answer3 = confirm("Антоним  айтылышы бирмес , жазылышы бирмес , маниси окшош ");
+if(answer3){
+    result2 = result + 10;
+
+    console.log(" Your've earned " + result2 + " point  " );
+}
