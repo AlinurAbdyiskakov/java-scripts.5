@@ -31,8 +31,13 @@ if(answer6){
 
     let answer7 = confirm("Ысык-кол кыргызстандабы?");
     if(answer7){
-        result7 = result + 10;}
+        result7 = result + 10;
+    console.log(" Your ve earned " + result5 + " point");}
     
+    let answer8 = confirm("Каракол Ысык-Колдун борбору ?");
+    if(answer8){
+        result8 = result + 10;
+    console.log(" Your ve earned " + result8 + " point");}
    
 
 
